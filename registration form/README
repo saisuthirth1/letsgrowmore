@@ -1,0 +1,8 @@
+Project Title: User Registration Form
+
+User Registration Form is a user-friendly web application crafted with HTML, CSS, and JavaScript, designed for hassle-free user registration.
+The form collects essential information including Name, Age, Gender, Email ID, and a user photo upload option.
+The JavaScript functionality ensures input validation, verifying accurate data entry and proper email formats. 
+Upon submission, the entered details are dynamically displayed on the page, offering users immediate feedback. 
+The form's responsive design guarantees a consistent and visually pleasing layout across devices. 
+With clear error handling, age verification, and an emphasis on aesthetics, RegiForm provides an efficient and visually appealing solution for user data input and display.
