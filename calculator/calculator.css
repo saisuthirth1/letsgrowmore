@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(236, 160, 133); 
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 550px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color:aqua;
+    border-radius: 15px;
+}
+
+
+input#display {
+    width: 250px;
+    margin-bottom: 13px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.buttons button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.clear-button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: auto; 
+}
