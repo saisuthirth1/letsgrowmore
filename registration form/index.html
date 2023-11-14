@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div id="form-container">
+        <h2>Registration Form</h2>
+        <form id="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="website">website:</label>
+            <input type="text" id="website" name="website" required><br>
+            
+            <label for="imagelink">Image Link:</label>
+            <input type="text" id="imagelink" name="imagelink" required><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <label>Skills:</label>
+            <input type="checkbox" id="java" name="skills" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="html" name="skills" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills" value="css">
+            <label for="css">CSS</label><br>
+            
+            <button type="submit">Register</button>
+            <button type="menu">clear</button>
+
+
+        </form>
+    </div>
+
+    <div id="display-container">
+        <h2>User Details</h2>
+        <p id="display name">Name:</p>
+        <p id="display email">Email:</p>
+        <p id="display website">Website:</p>
+        <p id="display website">imagelink:</p>
+        <img id="display-imagelink" src="" alt="User Image">
+        <p id="display skills">Skills:</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
